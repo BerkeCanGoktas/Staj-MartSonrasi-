@@ -36,7 +36,7 @@ int main()
     //synthesizeSpeech();
     
     TextToSpeech t2sObj;
-    t2sObj.setCredientals("91eeab3edf5c4570a3e0a50effa2b0ca", "eastus");
+    t2sObj.setCredientals("xxxx", "xxxx");
     t2sObj.setSSmlPath("C:/Programming/ssml.xml");
     t2sObj.setAudioPath("C:/Programming/result.wav");
     t2sObj.createSsmlFile(L"tr-Tr", L"tr-TR-EmelNeural", L"Sınıf için türkçe metin testi");
