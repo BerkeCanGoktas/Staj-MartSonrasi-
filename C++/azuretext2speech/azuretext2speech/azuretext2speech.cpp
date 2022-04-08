@@ -8,12 +8,12 @@ using namespace std;
 using namespace Microsoft::CognitiveServices::Speech;
 using namespace Microsoft::CognitiveServices::Speech::Audio;
 
-auto YourSubscriptionKey = "91eeab3edf5c4570a3e0a50effa2b0ca";
-auto YourServiceRegion = "eastus";
+auto YourSubscriptionKey = "xxxx";
+auto YourServiceRegion = "xxxx";
 
 void synthesizeSpeech()
 {
-    auto config = SpeechConfig::FromSubscription("91eeab3edf5c4570a3e0a50effa2b0ca", "eastus");
+    auto config = SpeechConfig::FromSubscription("xxxx", "xxxx");
     auto synthesizer = SpeechSynthesizer::FromConfig(config, NULL);
 
     std::ifstream file("C:/Programming/ssml.xml");
